@@ -15,6 +15,7 @@ body {
     body {
         padding: 5px;
     }
+
     body>#content {
         padding: 0px 20px 20px 20px !important;
     }
@@ -71,12 +72,29 @@ a:hover {
 }
 
 pre {
-    background-color: #f6f8fa;
+    position: relative;
+    /* background-color: #f6f8fa; */
+    background-color: white;
     border-radius: 3px;
     font-size: 85%;
     line-height: 1.45;
     overflow: auto;
     padding: 16px;
+}
+
+.copy-button {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    background: darkgray;
+    border-radius: 0.5em;
+    padding: 2px 7px;
+}
+
+.copy-button:hover {
+    color: #000;
 }
 
 
